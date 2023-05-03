@@ -1,0 +1,1 @@
+function e(e){let n=window.location.href,t="w="+document.documentElement.clientWidth+" "+(document.all?event.x:e.pageX)+" "+document.documentElement.clientWidth+"  "+(document.all?event.y:e.pageY)+" "+document.documentElement.clientHeight;n.indexOf("localhost")>=0?document.title=t:document.getElementById("debug").innerHTML=t}window.onload=function(){document.onclick=e};
